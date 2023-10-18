@@ -1,0 +1,259 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Style the header and navbar */
+header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(30, 30, 172, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+/* Style the logo */
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Style the hero section */
+.hero {
+    display: flex;
+    background: #fff; /* You can adjust the background color here */
+    padding: 100px;
+   
+}
+
+.hero-image {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: 500px;
+}
+
+.hero-content {
+    
+    flex: 1;
+   text-align: center;
+    text-align: justify;
+    margin-right: 50px;
+line-height: 1.2;
+
+
+   
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin: 10px 0; /* You can adjust the margin value as needed */
+}
+button{
+    margin-top: 40px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF; /* Button background color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 60px;
+    border-radius: 5px;
+   margin: auto;
+}
+footer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(30, 30, 172, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.clubs {
+    background: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.clubs h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.club-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.club-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.club-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.club-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.club-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.club-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* ... your existing CSS ... */
+.contact {
+    background: #f5f5f5;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.contact-container {
+    max-width: 600px; /* Set the maximum width as needed */
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    display: block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
